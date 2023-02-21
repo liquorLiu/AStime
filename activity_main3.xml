@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <Button
+        android:id="@+id/But_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转1界面"
+        />
+    <Button
+        android:id="@+id/But_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转计算器界面" />
+    <Button
+        android:id="@+id/But_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跳转拨打电话界面" />
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="准备向拨打活动界面发送消息"/>
+
+</LinearLayout>
